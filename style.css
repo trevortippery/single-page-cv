@@ -1,0 +1,78 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.page {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media (min-width: 768px) {
+  .page {
+    margin: 75px;
+    border: 3px solid black;
+    padding: 75px;
+  }
+}
+
+.name {
+  font-weight: normal;
+}
+
+.title {
+  font-weight: normal;
+  color: green;
+  margin-bottom: 10px;
+}
+
+address {
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.phone-number {
+  margin-top: 1px;
+  margin-bottom: 0;
+}
+
+.email {
+  margin-top: 1px;
+  margin-bottom: 25px;
+}
+
+.skills {
+  margin-bottom: 25px;
+}
+
+.college,
+.company {
+  font-weight: normal;
+  color: #1971c2;
+  margin-bottom: 0;
+}
+
+.timeline {
+  margin-top: 5px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+h4 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+.skills-list {
+  margin-top: 10px;
+}
+
+.social-links {
+  list-style: none;
+  width: 150px;
+  padding: 0;
+}
